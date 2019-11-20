@@ -20,7 +20,7 @@
   },
   "config": {
     "deployToGit": {
-      "repository": "git@github.com:zefoy/ngx-swiper-wrapper.git",
+      "repository": "git@github.com:kmturley/ngx-swiper-wrapper.git",
       "branch": "gh-pages",
       "folder": "dist",
       "script": "npm run build -- --base-href=ngx-swiper-wrapper --delete-output-path=false",
@@ -40,9 +40,9 @@
     "@angular/platform-browser": "^8.0.0",
     "@angular/platform-browser-dynamic": "^8.0.0",
     "core-js": "^3.1.0",
-    "ngx-swiper-wrapper": "^8.0.0",
+    "ngx-swiper-wrapper": "git+https://github.com/kmturley/ngx-swiper-wrapper.git",
     "rxjs": "^6.5.0",
-    "swiper": "^4.5.0",
+    "swiper": "^5.2.1",
     "zone.js": "^0.9.0"
   },
   "devDependencies": {

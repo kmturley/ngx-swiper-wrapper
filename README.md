@@ -4,13 +4,13 @@
 
 This is an Angular wrapper library for the [Swiper](http://idangero.us/swiper/). To use this library you should get familiar with the Swiper documentation as well since this documentation only explains details specific to this wrapper.
 
-This documentation is for the latest 6.x.x version which requires Angular 5 or newer. For Angular 4 you need to use the latest 4.x.x version. Documentation for the 4.x.x can be found from <a href="https://github.com/zefoy/ngx-swiper-wrapper/tree/4.x.x/">here</a>.
+This documentation is for the latest 6.x.x version which requires Angular 5 or newer. For Angular 4 you need to use the latest 4.x.x version. Documentation for the 4.x.x can be found from <a href="https://github.com/kmturley/ngx-swiper-wrapper/tree/4.x.x/">here</a>.
 
 ### Quick links
 
-[Example application](https://zefoy.github.io/ngx-swiper-wrapper/)
+[Example application](https://kmturley.github.io/ngx-swiper-wrapper/)
  |
-[StackBlitz example](https://stackblitz.com/github/zefoy/ngx-swiper-wrapper/tree/master/example)
+[StackBlitz example](https://stackblitz.com/github/kmturley/ngx-swiper-wrapper/tree/master/example)
  |
 [Swiper documentation](http://idangero.us/swiper/api/)
 
@@ -40,7 +40,7 @@ npm link ngx-swiper-wrapper
 ### Installing and usage
 
 ```bash
-npm install ngx-swiper-wrapper --save
+npm install git+https://github.com/kmturley/ngx-swiper-wrapper.git --save
 ```
 
 ##### Load the module for your app (with global configuration):
