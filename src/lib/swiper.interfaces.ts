@@ -78,6 +78,7 @@ export const SwiperEvents: SwiperEvent[] = [
 export interface SwiperConfigInterface {
   // Swiper parameters
   init?: boolean,
+  updateOnWindowResize?: boolean,
   initialSlide?: number,
   direction?: string,
   speed?: number,
