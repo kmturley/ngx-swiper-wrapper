@@ -368,6 +368,7 @@ export class SwiperConfig implements SwiperConfigInterface {
 
   // Swiper parameters
   public init?: boolean;
+  public updateOnWindowResize?: boolean;
   public initialSlide?: number;
   public direction?: string;
   public speed?: number;
