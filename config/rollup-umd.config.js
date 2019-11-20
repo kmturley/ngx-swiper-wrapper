@@ -20,7 +20,7 @@ const globals = {
 
   'rxjs': 'Rx',
 
-  'swiper/dist/js/swiper.js': 'Swiper'
+  'swiper/js/swiper.js': 'Swiper'
 };
 
 const external = Object.keys(globals);

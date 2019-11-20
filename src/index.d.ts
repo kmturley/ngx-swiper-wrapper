@@ -1,1 +1,1 @@
-declare module 'swiper/dist/js/swiper.js';
+declare module 'swiper/js/swiper.js';
