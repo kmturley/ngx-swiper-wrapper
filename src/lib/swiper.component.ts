@@ -15,7 +15,7 @@ import { SWIPER_CONFIG, SwiperConfig, SwiperConfigInterface,
   templateUrl: '../../dist/lib/swiper.component.html',
   styleUrls: [
     '../../dist/lib/swiper.component.css',
-    '../../node_modules/swiper/dist/css/swiper.min.css'
+    '../../node_modules/swiper/css/swiper.min.css'
   ],
   encapsulation: ViewEncapsulation.None
 })
